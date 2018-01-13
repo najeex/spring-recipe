@@ -9,6 +9,7 @@ public class IndexController {
 
     @RequestMapping({"","/","/index"})
     public String getIndexPage(){
-        return "Index";
+        return "index";
+
     }
 }
